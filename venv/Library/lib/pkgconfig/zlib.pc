@@ -1,0 +1,13 @@
+prefix=C:/mlpro/venv/Library
+exec_prefix=C:/mlpro/venv/Library
+libdir=C:/mlpro/venv/Library/lib
+sharedlibdir=C:/mlpro/venv/Library/lib
+includedir=C:/mlpro/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
